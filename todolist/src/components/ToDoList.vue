@@ -1,5 +1,5 @@
 <template>
-  <v-card align="center" class="hello">
+  <v-card elevation= "1" align="center" width="50%" >
     <v-card-title>
       <v-layout column>
         <h1>{{ msg }}</h1>
@@ -45,7 +45,10 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-a {
+h1 {
   color: #42b983;
+}
+h2 {
+  color: red;
 }
 </style>
