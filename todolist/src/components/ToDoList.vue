@@ -3,7 +3,7 @@
     <v-card-title>
       <v-layout column>
         <h1>{{ msg }}</h1>
-        <h2>Just Do It!</h2>
+        <h2>Hello, my friend, stay a while and listen</h2>
         <to-do-form @novotodo="itemnovo"></to-do-form>
         <v-list>
           <to-do-item @remove="removeitem" v-for="i in items" :key="i.id" :item="i"></to-do-item>
