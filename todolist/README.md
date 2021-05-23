@@ -1,5 +1,8 @@
 # todolist
 
+Visitar preview github.io
+https://fernandiego.github.io/todovue/
+
 ## Project setup
 ```
 npm install
