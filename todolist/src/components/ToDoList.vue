@@ -10,7 +10,7 @@
           <to-do-item @remove="removeitem" v-for="i in items" :key="i.id" :item="i"></to-do-item>
         </v-list>
         <div>
-        <img src="https://media1.tenor.com/images/6c575f7cc514d20f44d4d0b858dc2e93/tenor.gif?itemid=18315481"><img>
+        <img width="90%" src="https://media1.tenor.com/images/6c575f7cc514d20f44d4d0b858dc2e93/tenor.gif?itemid=18315481"><img>
         </div>
       </v-layout>
     </v-card-title>
