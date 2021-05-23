@@ -1,7 +1,7 @@
 <template>
   <v-form v-model="valid" @submit.prevent="addtodo()">
     <v-layout row>
-      <v-text-field v-model="task"></v-text-field>
+      <v-text-field placeholder="Write your tasks here" v-model="task"></v-text-field>
       <v-btn type="submit">add</v-btn>
     </v-layout>
   </v-form>
@@ -21,4 +21,5 @@ export default {
 </script>
 
 <style>
+
 </style>
